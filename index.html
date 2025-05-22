@@ -76,12 +76,7 @@
           <!-- mb-5 gives extra margin spacing under lead text -->
           <p class="lead mb-5">Let's create something amazing together!</p>
           <!-- Button trigger modal -->
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#subscribe"
-          >
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribe">
             Subscribe to my Newsletter
           </button>
         </div>
@@ -261,34 +256,34 @@
     </footer>
 
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="subscribe"
-      tabindex="-1"
-      aria-labelledby="subscribeModalLabel"
-      aria-hidden="true">
+    <div class="modal fade" id="subscribe" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="subscribeModalLabel">Subscribe</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your  inbox.
-          </div>
-           <form class="modal-body row g-3">
-            <div class="col-md-6">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="full-name" />
+          <div class="modal-body">
+            <p>
+            Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered straight to your  inbox.
+            </p>
+          
+           <form class="row g-3">
+            <div class="col-lg-6">
+              <label for="inputname" class="form-label">Name</label>
+              <input type="text" class="form-control" id="inputname" />
             </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" />
+            <div class="col-lg-6">
+              <label for="inputemail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputemail" />
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-4">
               <button type="submit" class="btn btn-primary">Sign Up!</button>
             </div>
           </form>
+          </div>  
         </div>
-        </div>
+     </div>
     </div>    
     <!-- Bootstrap JS Script -->
     <script
