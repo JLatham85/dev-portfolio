@@ -22,16 +22,30 @@ h2 {
     color: #184f63; /* dark-blue */
 }
 
+/* Sharp Corners to rounded edges */
 .sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
+
+/* Custom Buttons for Newsletter, Contact & Sighn-up */
+
+.custom-btn {
+    background-color: #1f7798; /* mid-blue */
+    border-color: #1f7798; /* mid-blue */
+}
+
+.custom-btn:hover {
+    background-color: #1d6d8a; /* dark-blue */
+    border-color: #1d6d8a; /* dark-blue */
+}
+
 
 /* About Section*/
 #about {
     background-color: white;
 }
 
-/* Porfolio */
+/* Porfolio Section */
 #portfolio {
     background-color: #dbdcde; /* light grey */
 }
